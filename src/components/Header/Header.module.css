@@ -1,0 +1,27 @@
+.header{
+    /*Container */
+    text-align: center;
+    border: 1px black solid;
+    
+    background-size: 100%;
+
+    background-image: url("https://thumbs.dreamstime.com/b/exterior-wall-photograph-authentic-texture-pattern-shot-outdoors-natural-light-painted-plaster-background-pastel-108104576.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area: h;
+}
+
+
+
+.header img{
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto;
+    width: 10%;
+    transition: all 1s ease;
+}
+
+.header img:hover{
+    
+    transition: all 1s ease;
+    transform: scale(2.0);
+}

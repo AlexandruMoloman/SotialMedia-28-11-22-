@@ -1,0 +1,97 @@
+.nav{
+    
+    /* Container */
+    font-size: 35px;
+   text-align: left;
+   padding: 20px;
+   display: block;
+   cursor: pointer;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   border: 5px yellow;
+   grid-area: n;
+   background-image: url("https://w0.peakpx.com/wallpaper/20/744/HD-wallpaper-black-pattern-black-design-modern-thumbnail.jpg");
+   background-size: cover;
+   
+}
+
+/***********************NAVIGATION****************************/
+
+.item {
+    color: white;
+    transition: 0.5s all ease;
+    text-decoration: none;
+}
+
+.item :hover{
+    
+    padding-left: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: coral;
+    transition: 0.5s all ease;
+}
+
+.item_sidebar {
+    margin: 0 auto;
+    font-size: 55px;
+    color: white;
+    transition: 0.5s all ease;
+    text-decoration: none;
+}
+
+.item_sidebar :hover{
+    
+    padding-left: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: coral;
+    transition: 0.5s all ease;
+}
+
+
+
+.active{
+    color: coral;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+/***********************USERS****************************/
+
+
+.users{
+    padding-top: 10px;
+    display: flex;
+    
+}
+
+.user{
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.user :hover{
+    color: coral;
+    transition: 0.5s all ease;
+}
+
+.click{
+    color: coral;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s all ease;
+}
+
+
+.friendsLogo{
+    margin: 0 auto;
+    width: 80%;
+    transition: all 0.5s ease;
+   
+}
+
+.friendsLogo :active{
+    transform: scale(1.5);
+    transition: all 0.5s ease;
+}

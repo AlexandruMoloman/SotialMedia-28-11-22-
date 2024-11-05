@@ -1,0 +1,138 @@
+.dialogs{
+   
+display: grid;
+grid-template-columns:1fr 0fr 0fr 10fr;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 15px;
+}
+
+.userLogo{
+    
+}
+
+.logo{
+    padding-top: 15px;
+    display: grid;
+    width: 50%;
+}
+
+.dialogItems a{
+padding-right: 20px;    
+    text-decoration: none;
+    color: white;
+}
+
+.dialogItems a :hover{
+    text-decoration: none;
+    color: rgb(175, 33, 33);
+}
+
+.dialogsitem {
+    
+
+}
+
+.dialogsitem .dialog{
+
+
+
+}
+
+
+
+.dialog{
+
+    
+    justify-content: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: rgb(9, 14, 3);
+    
+    transition: 0.3s ease all;
+}
+
+.dialog :hover{
+    color: coral;
+    font-size: 30px;
+    transition: 0.3s ease all;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    
+}
+
+.dialog :active{
+    color: coral;
+    font-size: 30px;
+    transition: 0.3s ease all;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    
+}
+
+
+.messages{border: 5px black solid;
+    border-radius: 40% 0% 40%  0%;
+    background-color: rgb(221, 200, 10);
+    opacity: 50%;
+    text-align: right;
+    padding-right: 10%;
+    height: 600px;
+}
+
+.message{
+    
+}
+
+.line{
+    margin: 15px;
+    width: 1%;
+    border: 1px white solid;
+    height: 500px;
+}
+
+.textarea{
+    width: 300px; /* Ширина поля в процентах */
+    height: 100px; /* Высота поля в пикселях */
+    resize: none; /* Запрещаем изменять размер */
+    color: coral;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.areaText{
+    
+    padding-top: 90px;
+    display: flex;
+}
+
+.button{
+    height: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    border: none;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.buttonPosition{
+    padding-top: 2px;
+    width: 25%;
+    display: flex;
+
+}
+
+.button :hover{
+    color: coral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    width: 22%;
+    border: none;
+    transition: 0.5s all ease;
+    height: 35px;
+    cursor: pointer;
+}

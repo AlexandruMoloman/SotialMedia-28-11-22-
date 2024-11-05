@@ -1,0 +1,11 @@
+.logo{
+    width: 30%;
+   display: flex;
+}
+
+
+.top{
+    color: coral;
+    padding-left:15px;
+    
+}

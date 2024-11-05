@@ -1,0 +1,48 @@
+.top{
+    padding-left:15px;
+    color: coral;
+    
+}
+
+.description{
+    display: flex;
+
+}
+
+.textarea{
+    width: 50%; /* Ширина поля в процентах */
+    height: 100px; /* Высота поля в пикселях */
+    resize: none; /* Запрещаем изменять размер */
+    color: coral;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.addPost{
+    padding-top: 5px;
+    display: flex;
+    
+}
+
+.button{
+    height: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: coral;
+    width: 22%;
+    border: none;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.button :hover{
+    color: coral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    width: 22%;
+    border: none;
+    transition: 0.5s all ease;
+    height: 35px;
+    cursor: pointer;
+}
